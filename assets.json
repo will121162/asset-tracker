@@ -1,63 +1,28 @@
 {
   "assets": {
-    "privatize-subsidize-registrar": {
-      "asset_name": "test_name",
-      "asset_description": "this is a test of the asset naming system",
+    "revision-vibes-subprime": {
+      "asset_name": "new_asset",
+      "asset_description": "new assets need a description of at least 10 words to make sure that the description can be enterpreted later when recalled",
       "custom_fields": {}
     },
-    "citizen-obscurity-never": {
-      "asset_name": "nice_trix_mi6",
-      "asset_description": "in the tent pissing out please",
+    "prescribe-gender-musket": {
+      "asset_name": "Living_room_TV",
+      "asset_description": "this is a sony TV that is about 50\" across and i use it to watch films and TV",
       "custom_fields": {
-        "yes": ":yes"
+        "IP": "192.168.1.345",
+        "Port": "20"
       }
     },
-    "icing-vintage-sporty": {
-      "asset_name": "sport my vintage icing",
-      "asset_description": "best hope my git.ignore is working for this one",
-      "custom_fields": {
-        "key_name": "69"
-      }
-    },
-    "gallon-tricky-scant": {
-      "asset_name": "home_NAS",
-      "asset_description": "this is the nas i use at home and save my data to",
-      "custom_fields": {
-        "ip": "192.168.1.114",
-        "port": "22"
-      }
-    },
-    "rocky-cotton-wool": {
-      "asset_name": "sheepy",
-      "asset_description": "this description about sheeps needs to be over 10 words and so im now woffling on just to prove the point to see if the error flags",
-      "custom_fields": {}
-    },
-    "snub-escapist-splicing": {
-      "asset_name": "splice the snub",
-      "asset_description": "ok now this works it calls me out for using less than ten words",
+    "plausible-baggie-fantastic": {
+      "asset_name": "asset_name",
+      "asset_description": "this is a description 1 2 3 4 5 6 7 8 9",
       "custom_fields": {}
     }
   },
   "existing_strings": [
-    "sauna-devotion-lapel",
-    "unflawed-occupier-shivering",
-    "scared-landed-quotation",
-    "vividness-festival-elude",
-    "pry-sixteen-scalding",
-    "cymbal-jailbreak-deprive",
-    "handgrip-cradle-sandal",
-    "jumbo-mummy-laborious",
-    "nullify-thorn-geologist",
-    "barber-ageless-curling",
-    "humbling-overhung-shakiness",
-    "statue-figment-transpire",
-    "uninsured-afloat-coastal",
-    "privatize-subsidize-registrar",
-    "citizen-obscurity-never",
-    "icing-vintage-sporty",
-    "gallon-tricky-scant",
-    "rocky-cotton-wool",
-    "snub-escapist-splicing"
+    "revision-vibes-subprime",
+    "prescribe-gender-musket",
+    "plausible-baggie-fantastic"
   ],
   "blocked_strings": []
 }
