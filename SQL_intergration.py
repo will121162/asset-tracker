@@ -1,8 +1,11 @@
-#from secrets import SQL_USR_NAME as sql_username, SQL_PW as sql_pw
+import os
+from dotenv import load_dotenv
 import mysql.connector
-from main_cli import new_unique_string
+from main import new_unique_string
 from faker import Faker
 import random
+
+load_dotenv()
 
 fake = Faker()
 
@@ -12,10 +15,10 @@ Faker.seed(42)
 
 
 db = mysql.connector.connect(
-    host='192.168.1.188',
-    port=3306,
+    host=os.environ['HOST'],
+    port=os.environ['PORT'],
     user='automation',
-    passwd='pi_SQL_pw1!',
+    password=os.environ["SQL_PW"],
     database='social_media_platform'
 )
 my_cursor = db.cursor()
